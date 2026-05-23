@@ -9,7 +9,9 @@ then go to sql and copy and paste this then select go to run..
 USE aristosole_db;
 
 -- Add image column to products table
+
 ALTER TABLE products ADD COLUMN image VARCHAR(200) DEFAULT NULL;
 
 -- Verify column was added
+
 DESCRIBE products;
